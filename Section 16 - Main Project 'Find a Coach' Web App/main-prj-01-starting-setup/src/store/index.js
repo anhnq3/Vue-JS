@@ -3,7 +3,7 @@ import coachesModules from './modules/coaches/index.js';
 // import requestsModules from './modules/requests/index.js';
 
 const store = createStore({
-  namespaces: true,
+  // namespaces: true,
   modules: {
     coaches: coachesModules,
     // requests: requestsModules,
